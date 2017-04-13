@@ -1,0 +1,49 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white; 
+}
+li{
+    display: inline;
+    float: left;
+    border-right: 1px solid white;
+}
+a{
+    display: block;
+    padding: 14px 25px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Lucida Console";
+}
+a:hover{
+    background-color: rgb(191, 5, 204);
+}
+body
+{
+    background-image: url("Afbeelding1.png");
+    background-size: 1400px;
+    background-position: 50% 15px; 
+    background-attachment: fixed;
+}
+#TheBody{
+    background-color: rgba(255,255,255, 0.8);
+    width: 75%;
+    height: 1900px;
+    position: absolute;
+    left: 12.5%;
+    top: 49px;
+}
+p{
+    margin-top: 48px;
+}

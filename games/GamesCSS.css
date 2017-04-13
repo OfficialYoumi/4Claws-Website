@@ -1,0 +1,30 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    left: 0;
+}
+li{
+    display: inline;
+    float: left;
+    border-right: 1px solid white;
+}
+a{
+    display: block;
+    padding: 14px 25px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Lucida Console";
+}
+
+a:hover{
+    background-color: rgb(191, 5, 204);
+}
